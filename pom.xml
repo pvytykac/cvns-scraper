@@ -8,9 +8,19 @@
     <artifactId>cvns-scraper</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <modules>
         <module>cvns-scraper-db</module>
         <module>cvns-scraper-http</module>
+        <module>rzp</module>
+        <module>cvns-commons</module>
+        <module>mvcr</module>
+        <module>mkcr</module>
     </modules>
 
 </project>

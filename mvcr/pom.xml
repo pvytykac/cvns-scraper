@@ -9,26 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cvns-scraper-db</artifactId>
+    <artifactId>mvcr</artifactId>
     <version>1.0</version>
 
     <dependencies>
         <dependency>
             <groupId>net.pvytykac</groupId>
-            <artifactId>cvns-commons</artifactId>
+            <artifactId>cvns-scraper-db</artifactId>
             <version>1.0</version>
         </dependency>
 
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.46</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-dbcp2</artifactId>
-            <version>2.2.0</version>
+            <groupId>net.pvytykac</groupId>
+            <artifactId>cvns-scraper-http</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
